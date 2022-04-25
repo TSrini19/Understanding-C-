@@ -1,0 +1,11 @@
+This file consists of all the errors that I made during my learning. 
+This file can be used as a tool to be aware of mistakes that you can experience while you code.
+
+My Mistakes
+============
+1) Never use 'using namespace std;'. This will import all the functions inside std. 
+Instead follow the conventions such as std::cout, std::cin to save memory and to optimize your code. 
+
+2) compound operations cannot be performed during std::cout. They have to be defined and executed as a separate line. 
+
+

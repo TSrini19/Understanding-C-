@@ -6,6 +6,6 @@ My Mistakes
 1) Never use 'using namespace std;'. This will import all the functions inside std. 
 Instead follow the conventions such as std::cout, std::cin to save memory and to optimize your code. 
 
-2) compound operations cannot be performed during std::cout. They have to be defined and executed as a separate line. 
+2) compound operations cannot be performed during std::cout. They have to be defined and executed in a separate line. 
 
 

@@ -2,10 +2,11 @@
 
 int main()
 {
-
+ //Define variables with integer datatype
  int a,b;
  int c,d;
  
+ //Arithmetic operations
  std::cout << "Enter two numbers " << std::endl;
  std::cin >> a>>b ;
  
@@ -15,6 +16,7 @@ int main()
  std::cout << "The division of " << a << " and " << b << " is " << a/b << std::endl;
  std::cout << "The modulo of " << a << " and " << b << " is " << a%b << std::endl;
  
+ //Compound operations
  std::cout << "Enter a value for c" << std::endl;
  std::cin >> c;
  c += 20;
@@ -28,6 +30,7 @@ int main()
  c %= 20;
  std::cout << "Compund modulo " << c << std::endl;
  
+ //Increment/Decrement operations
  std::cout << "Enter a value for d " << std::endl;
  std::cin >> d;
  d++;

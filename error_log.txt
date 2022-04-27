@@ -21,3 +21,7 @@ location, we use the '&' operator. To fetch an value stored at a particular memo
 
 8) While using while loop, never forget to add incremental/decremental statements inside the loop. Failure to do will create an infinite loop if the condition
 inside while loop is evaluated as true. 
+
+9) Always end the while statement in do while loop using a ';'. This will throw error during compilation. 
+
+

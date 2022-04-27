@@ -13,3 +13,6 @@ Instead follow the conventions such as std::cout, std::cin to save memory and to
 4) While using pointers, '*' is used for defining a pointer that point to a particular object. To access the value stored at a particular memory
 location, we use the '&' operator. To fetch an value stored at a particular memory address, we dereference the pointer using '*'.
 
+5) Always follow indentations to improve readability of your code.
+
+6) To define conditions inside if statements use '()'.  

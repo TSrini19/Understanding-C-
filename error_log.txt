@@ -16,3 +16,8 @@ location, we use the '&' operator. To fetch an value stored at a particular memo
 5) Always follow indentations to improve readability of your code.
 
 6) To define conditions inside if statements use '()'.  
+
+7) While initializing a for loop, either define the datatype of the variable inside the loop or at the entry point of the program.
+
+8) While using while loop, never forget to add incremental/decremental statements inside the loop. Failure to do will create an infinite loop if the condition
+inside while loop is evaluated as true. 

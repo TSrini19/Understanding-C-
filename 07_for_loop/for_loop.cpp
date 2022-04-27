@@ -11,5 +11,7 @@ int main()
  { 
   std::cout <<"Hello World " << i << std::endl;
  }
+ 
+ std::cout << "Out of for loop " << std::endl; 
  return 0;
 }

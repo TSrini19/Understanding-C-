@@ -24,4 +24,6 @@ inside while loop is evaluated as true.
 
 9) Always end the while statement in do while loop using a ';'. This will throw error during compilation. 
 
-
+10) To get multiple values from the user using cin, do not use ',' to fetch the second input after the first. Instead use '>>'. 
+example: std::cin >> x >> y;
+should not be used as std::cin >> x,y;

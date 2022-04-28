@@ -42,6 +42,11 @@ int main()
  --d;
  std::cout << "pre increment " << d << std::endl;
  
+ //Logical operators
+ std::cout << "Logical AND: && " << std::endl;
+ std::cout << "Logical OR: || " << std::endl;
+ std::cout << "Logical NOT: ! " << std::endl;
+ 
  return 0;
 
 }

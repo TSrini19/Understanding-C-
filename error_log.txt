@@ -27,3 +27,6 @@ inside while loop is evaluated as true.
 10) To get multiple values from the user using cin, do not use ',' to fetch the second input after the first. Instead use '>>'. 
 example: std::cin >> x >> y;
 should not be used as std::cin >> x,y;
+
+11) While using string, always import the '#include <string>' header and use 'std::string' to define variables and values.
+If the header alone is imported and the std::string is not specified, then there arises a compilation error.

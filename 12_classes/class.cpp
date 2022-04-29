@@ -1,7 +1,9 @@
 #include <iostream> 
 
+//We define a class by specifying the keyword class followed by a name for the class.
 class MathOperations
 {
+ //Here we define the access spcifier for the class. 
  public:
     int add(int a, int b)
     {
@@ -35,8 +37,10 @@ int main()
  std::cout << "enter two numbers " << std::endl;
  std::cin >> x >> y;
  
+ //Here we create an object called obj to access member functions from class MathOperations
  MathOperations obj;
  
+ //using '.' we call the member functions inside the class MathOperations
  obj.add(x,y);
  obj.sub(x,y);
  obj.multiply(x,y);

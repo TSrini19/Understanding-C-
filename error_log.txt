@@ -30,3 +30,7 @@ should not be used as std::cin >> x,y;
 
 11) While using string, always import the '#include <string>' header and use 'std::string' to define variables and values.
 If the header alone is imported and the std::string is not specified, then there arises a compilation error.
+
+12) Another way to introduce strings into your code is to use 'using std::String;' command. 
+
+13) auto cannot be used inside a class. auto can only be used with static members.
